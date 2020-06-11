@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    background-color: rgb(21, 63, 65);
+    color: #fff;
+    padding: 30px;
+  }
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  header p {
+    font-size: 22px;
+  }
+  main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    /* min-height: calc(100vh - 211px - 58px); */
+  }
+  article {
+    background-color: rgb(21, 63, 66);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 60%;
+    float: right;  
+  }
+
+  .photosaydyy-kuo{
+      float: left;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    margin-top: 16px;
+    line-height: 24px;
+    color: rgba(48, 148, 161, 0.5);
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1; */
+  }
+  
+  @media(max-width:768px) {
+    header { padding: 30px 20px; }
+    header h1 { font-size: 36px; margin-bottom: 22px; }
+    header p { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    article { margin-bottom: 16px; font-size: 14px; }
+    article h3 { margin: 10px 0 20px 0; }
+    article p { margin-top: 16px; line-height: 20px; }
+  }
+
