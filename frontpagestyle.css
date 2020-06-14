@@ -97,14 +97,14 @@ footer{
 
 .music{
     top: 103%;
-    left: 9%;
+    left: 0%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .etsy{
     top: 103%;
-    right: 9%;
+    right: 0%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
