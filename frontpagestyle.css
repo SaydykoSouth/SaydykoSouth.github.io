@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -28,9 +30,6 @@ body {
     */
 }
 
-.background{
-    z-index: 9;
-}
 
 main{
     width: 90vw;
@@ -51,9 +50,10 @@ footer{
     z-index: 12;
 }
 
+
 .SaydyyKuo{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -71,54 +71,55 @@ footer{
 
 
 .work{
-    left: 15%;
-    top: 67%;
+    margin-left: 15vw;
+    top: 70%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 
 .shop{
-    top: 67%;
-    right: 15%;
+    top: 70%;
+    margin-right: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
+    display: fixed;
     
 }
 
 .frontLogo{
     position: absolute;
-    top: 120%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
 
 .music{
-    top: 103%;
-    left: 0%;
+    top: 50%;
+    margin-left: 5vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .etsy{
-    top: 103%;
-    right: 0%;
+    top: 50%;
+    margin-right: 5vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .blog{
-    top: 140%;
-    left: 10%;
+    top: 160%;
+    margin-left: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .news{
-    top: 140%;
-    right: 10%;
+    top: 160%;
+    margin-right: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
@@ -126,7 +127,7 @@ footer{
 
 .contact{
     position: absolute;
-    top: 180%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 11;
