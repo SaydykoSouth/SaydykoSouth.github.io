@@ -95,15 +95,15 @@ footer{
 }
 
 .music{
-    top: 103%;
-    left: 0%;
+    top: 50%;
+    margin-left: 5vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .etsy{
-    top: 103%;
-    right: 0%;
+    top: 50%;
+    margin-right: 5vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
