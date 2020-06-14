@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.canvas-container
+			{
+				width: 90vw;
+				margin-right:5vw;
+				margin-left:5vw;
+
+				height: 75vh;
+				margin-bottom: 5vh;
+				margin-top: 20vh;
+
+				display: none;
+			}
+			.canvas
+			{
+				margin: 0 auto;
+				border: 2px solid yellow;
+			}
+
 header{
     text-align: center;
     background-color: rgb(0, 0, 0);
