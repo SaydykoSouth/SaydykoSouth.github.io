@@ -70,16 +70,16 @@ footer{
 
 
 .work{
-    left: 15%;
-    top: 67%;
+    margin-left: 15vw;
+    top: 70%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 
 .shop{
-    top: 67%;
-    right: 15%;
+    top: 70%;
+    margin-right: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
@@ -109,15 +109,15 @@ footer{
     cursor: pointer;
 }
 .blog{
-    top: 140%;
-    left: 10%;
+    top: 160%;
+    margin-left: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .news{
-    top: 140%;
-    right: 10%;
+    top: 160%;
+    margin-right: 15vw;
     position: absolute;
     z-index: 11;
     cursor: pointer;
@@ -125,7 +125,7 @@ footer{
 
 .contact{
     position: absolute;
-    top: 180%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 11;
