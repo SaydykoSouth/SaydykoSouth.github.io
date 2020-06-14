@@ -221,27 +221,26 @@ footer{
     border:2px double white;
     transition: all .4s;
 }
-.container{
+
     
-    display: left;
-    list-style: none;
-    
-    padding:90px;
-    z-index: 11;
-    position: absolute;
-    
-}
-.content{
-    position: absolute;
-    
-    
-    padding-top: 10%;
-    padding: 20px;
-    /*transform:translate(-50%,-50%);*/
-    width: 100%;
+.social{
     text-align: center;
-    z-index: 11;
 }
+.social li{
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+}
+.social-icons li a {
+    border-bottom: none;
+}
+  .social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+  }
+
 
 .fa:hover {
    
