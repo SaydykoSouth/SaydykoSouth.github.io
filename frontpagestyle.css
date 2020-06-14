@@ -13,6 +13,7 @@
     height: 75vh;
     margin-bottom: 5vh;
     margin-top: 20vh;
+    top: 160%;
 
     display: none;
 }
@@ -71,7 +72,7 @@ footer{
 
 .SaydyyKuo{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
