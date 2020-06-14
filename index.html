@@ -36,54 +36,7 @@
         <img width="1300" src="css/Images/SaydyyKuo.png" class="SaydyyKuo"/>
     </header>
 
-    <style>
-    .canvas-container{
-        width: 90vw;
-        margin-right:5vw;
-        margin-left:5vw;
-    
-        height: 75vh;
-        margin-bottom: 5vh;
-        margin-top: 20vh;
-        top: 260%;
-        position: absolute;
-    
-        display: none;
-    }
-    .canvas
-    {
-        margin: 0 auto;
-        border: 2px solid yellow;
-    }
-    </style>
-    <div class="canvas-container">
-        <div class="canvas">
-​
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function()
-        {
-            $(window).on('resize', function()
-            {
-                $('.canvas-container').each(function()
-                {
-                    var w = $(this).width();
-                    var h = $(this).height();
-
-                    var size = w <= h ? w : h;
-
-                    $(this).children('.canvas').width(size).height(size);
-                });
-            });
-            $(window).resize();
-            $('.canvas-container').fadeIn();
-        });
-    </script>
-
     <main>
-        <img src="css/Images/bg.jpg" alt="background" class="background"/>
         <a href="about.html" target="_blank"><img width="300" src="css/Images/About.png" class="about"/></a>
 
         <a href="work.html" target="_blank"><img width="300" src="css/Images/work.png" class="work"/></a>
@@ -119,6 +72,52 @@
         </div>
         </div>
     </main>
+
+    <style>
+        .canvas-container{
+            width: 90vw;
+            margin-right:5vw;
+            margin-left:5vw;
+        
+            height: 75vh;
+            margin-bottom: 5vh;
+            margin-top: 20vh;
+            top: 260%;
+            position: absolute;
+        
+            display: none;
+        }
+        .canvas
+        {
+            margin: 0 auto;
+            border: 2px solid yellow;
+        }
+        </style>
+        <div class="canvas-container">
+            <div class="canvas">
+    ​
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $(window).on('resize', function()
+                {
+                    $('.canvas-container').each(function()
+                    {
+                        var w = $(this).width();
+                        var h = $(this).height();
+    
+                        var size = w <= h ? w : h;
+    
+                        $(this).children('.canvas').width(size).height(size);
+                    });
+                });
+                $(window).resize();
+                $('.canvas-container').fadeIn();
+            });
+        </script>
     
 <footer id="footer">
     <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Coding and design by Saydyy-Kuo</p>
