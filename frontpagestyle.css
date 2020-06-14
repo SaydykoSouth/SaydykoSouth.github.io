@@ -62,7 +62,7 @@ footer{
 
 .about{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 11;
@@ -71,7 +71,7 @@ footer{
 
 
 .work{
-    left: 20%;
+    left: 15%;
     top: 67%;
     position: absolute;
     z-index: 11;
@@ -80,7 +80,7 @@ footer{
 
 .shop{
     top: 67%;
-    right: 20%;
+    right: 15%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
@@ -97,28 +97,28 @@ footer{
 
 .music{
     top: 103%;
-    left: 13%;
+    left: 9%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .etsy{
     top: 103%;
-    right: 15%;
+    right: 9%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .blog{
     top: 140%;
-    left: 20%;
+    left: 10%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
 }
 .news{
     top: 140%;
-    right: 20%;
+    right: 10%;
     position: absolute;
     z-index: 11;
     cursor: pointer;
@@ -126,7 +126,7 @@ footer{
 
 .contact{
     position: absolute;
-    top: 169%;
+    top: 180%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 11;
