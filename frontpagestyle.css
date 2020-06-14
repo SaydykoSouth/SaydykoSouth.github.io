@@ -223,12 +223,13 @@ footer{
 }
 .container{
     
-    display: inline-table;
+    display: list-item;
     list-style: none;
     top:20%;
     left:50%;
     padding:100px;
     z-index: 11;
+    position: absolute;
     
 }
 .content{
