@@ -28,6 +28,10 @@ body {
     */
 }
 
+.background{
+    z-index: 9;
+}
+
 main{
     width: 90vw;
     margin: 0 auto;
