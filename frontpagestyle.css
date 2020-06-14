@@ -223,10 +223,10 @@ footer{
 }
 .container{
     
-    display: list-item;
+    display: left;
     list-style: none;
-    top:200vw;
-    left:50%;
+    top:80vw;
+    left:0vw;
     padding:100px;
     z-index: 11;
     position: absolute;
@@ -235,7 +235,7 @@ footer{
 .content{
     position: absolute;
     
-    padding:100px;
+    padding:90px;
     top:55%;
     left:50%;
     transform:translate(-50%,-50%);
