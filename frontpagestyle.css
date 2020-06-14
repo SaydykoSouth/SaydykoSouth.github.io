@@ -225,7 +225,7 @@ footer{
     
     display: list-item;
     list-style: none;
-    top:20%;
+    top:200vw;
     left:50%;
     padding:100px;
     z-index: 11;
