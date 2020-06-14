@@ -32,95 +32,358 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTKZQJG"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header>
-        <img width="800" src="css/Images/SaydyyKuo.png" class="SaydyyKuo"/>
-    </header>
-
-    <main>
 
 
-    
+	
 
-           <div class="wrapper">
-              <h1>Subscribe to my newsletter</h1>
-              <p>Receive updates instantly</p>
-           <div class="newsletter">
-              <input type="text" class="input" placeholder="Enter Your Email"/>
-              <i class="fas fa-envelope"></i>
-              <div class="btn">Subscribe</div>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 
-            </div> 
-            </div>
+		<meta content="utf-8" http-equiv="encoding">
 
-        <div class='container'>
-              <div class="content">
-                 <a href="https://www.facebook.com/saydyko.udagan" target="_blank" class="fa fa-facebook"></a>
-                 <a href="https://twitter.com/Saydyy_Kuo" target="_blank" class="fa fa-twitter"></a>
-                 <a href="https://www.linkedin.com/in/saydyko-south/" target="_blank" class="fa fa-linkedin"></a>
-                 <a href="https://www.youtube.com/channel/UCJ2aIig6IbwO-0nUrCNnWNQ?view_as=subscriber" target="_blank" class="fa fa-youtube"></a>
-                 <a href="https://www.instagram.com/saydyy_kuo_fedorova/" target="_blank" class="fa fa-instagram"></a>
-               </div>
-        </div>
-        </div>
-    </main>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 
     <style>
-        .canvas-container{
-            width: 90vw;
-            margin-right:5vw;
-            margin-left:5vw;
+
+        body
+        {
+            height: 100vh;
+
+            width: 100%;
+
+            overflow-y: auto;
+            
+            overflow-x: hidden;
         
-            height: 75vh;
-            margin-bottom: 5vh;
-            margin-top: 20vh;
-            top: 55%;
+            background-image: url('images/bg.jpg');
+        
+            background-attachment: fixed;
+
+            background-size: cover;
+        
+            background-position: center;
+        }
+        .title-container
+        {
+            width: 100%;
+
+            height: 20vh;
+
             position: absolute;
-            z-index: 10;
+
+            top: 0;
+
+            text-align: center;
+
+            opacity: 0;
+
+            margin-top: 20px;
+
+            margin-bottom: 25px;
+        }
+        .title
+        {
+            display: inline-block;
+
+            height: 100%;
+
+            background-image: url('images/title.png');
+            
+            background-size: contain;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+        }
+        .canvas-container
+        {
+            width: 100%;
+
+            height: 75vh;
         
-            display: none;
+            opacity: 0;
+
+            overflow: visible;
+
+            position: relative;
+
+            top: 20vh;
         }
         .canvas
         {
             margin: 0 auto;
-            border: 2px solid yellow;
+
+            margin-bottom: 20px;
+
+            font-size: 0;
         }
-        </style>
-        <div class="canvas-container">
-            <div class="canvas">
-    ​            <a href="about.html" target="_blank"><img width="100" src="css/Images/About.png" class="about"/></a>
-                <a href="work.html" target="_blank"><img width="100" src="css/Images/work.png" class="work"/></a>
-                <img width="600" src="css/Images/frontLogo.png" class="frontLogo"/>
-                <a href="https://udaganuniverse.com/" target="_blank"><img width="100" src="css/Images/shop.png" class="shop"/></a>
-                <a href="https://www.etsy.com/uk/shop/UDAGANuniverse" target="_blank"><img width="100" src="css/Images/etsy.png" class="etsy"/></a>
-                <a href="music.html" target="_blank"><img width="100" src="css/Images/music.png" class="music"/></a>
-                <a href="news.html" target="_blank"><img width="100" src="css/Images/news.png" class="news"/></a>
-                <a href="blog.html" target="_blank"><img width="100" src="css/Images/blog.png" class="blog"/></a>
-                <a href="contact.html" target="_blank"><img width="100" src="css/Images/contact.png" class="contact"/></a>
+        .canvas .column
+        {
+            height: 100%;
+
+            display: inline-block;
+
+            margin: 0;
+        }
+        .canvas .column-1,
+
+        .canvas .column-3
+        {
+            width: 15%;
+        }
+        .canvas .row-1,
+
+        .canvas .row-3
+        {
+            height: 15%;
+        }
+        .canvas .column-2
+        {
+            width: 70%;
+        }
+        .canvas .row-2
+        {
+            height: 70%;
+        }
+        .canvas .row
+        {
+            width: 100%;
+
+            display: inline-block;
+
+            margin: 0;
+
+            position: relative;
+
+            text-align: center;
+        }
+        .canvas .corner > a,
+
+        .canvas .edge > a
+        {
+            display: inline-block;
+
+            max-width: 100%;
+
+            max-height: 100%;
+
+            object-fit: contain;
+
+            vertical-align: middle;
+
+            position: relative;
+        }
+        .canvas .top.corner > a,
+
+        .canvas .bottom.corner > a,
+
+        .canvas .top.edge > a,
+
+        .canvas .bottom.edge > a
+        {
+            height: 100%;
+        }
+        .canvas .left.corner > a,
+
+        .canvas .right.corner > a,
+
+        .canvas .left.edge > a,
+
+        .canvas .right.edge > a
+        {
+            width: 100%;
+        }
+        .canvas .corner > a img,
+
+        .canvas .edge > a img
+        {
+            display: inline-block;
+
+            max-width: 100%;
+
+            max-height: 100%;
+
+            overflow: auto;
+
+            object-fit: contain;
+        }
+        .canvas .center > img
+        {
+            max-width: 88%;
+
+            max-height: 88%;
+
+            overflow: visible;
+
+            object-fit: contain;
+        }
+        .canvas .top.corner
+        {
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="title-container">
+
+        <a href="/" class="title"></a>
+
+    </div>
+
+    <div class="canvas-container">
+
+        <div class="canvas">
+
+            <div class="column column-1">
+
+                <div class="row row-1 top left corner">
+
+                    <a href="#"><img src="images/links/work.png" /></a>
+
+                </div>
+
+                <div class="row row-2 left edge">
+
+                    <a href="#"><img src="images/links/music.png" /></a>
+
+                </div>
+
+                <div class="row row-3 bottom left corner">
+
+                    <a href="#"><img src="images/links/blog.png" /></a>
+
+                </div>
+
             </div>
+
+            <div class="column column-2">
+
+                <div class="row row-1 top edge">
+
+                    <a href="#"><img src="images/links/about.png" /></a>
+
+                </div>
+
+                <div class="row row-2 center">
+
+                    <img src="images/icon.png" />
+
+                </div>
+
+                <div class="row row-3 bottom edge">
+
+                    <a href="#"><img src="images/links/contact.png" /></a>
+
+                </div>
+
+            </div>
+
+            <div class="column column-3">
+
+                <div class="row row-1 top right corner">
+
+                    <a href="#"><img src="images/links/shop.png" /></a>
+
+                </div>
+
+                <div class="row row-2 left edge">
+
+                    <a href="#"><img src="images/links/etsy.png" /></a>
+
+                </div>
+
+                <div class="row row-3 bottom right corner">
+
+                    <a href="#"><img src="images/links/news.png" /></a>
+
+                </div>
+
+            </div>
+
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function()
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(window).on("load", function()
+        {
+            var min_title_height = 160;
+
+            var canvas_container = $('.canvas-container');
+
+            var title_container = $('.title-container');
+
+            $(window).on('resize', function()
             {
-                $(window).on('resize', function()
+                var offset = parseInt(title_container.css('marginTop')) + parseInt(title_container.css('marginBottom'));
+
+                var w = canvas_container.width();
+
+                var h = canvas_container.height();
+    
+                var size = (w <= h ? w : h) - offset;
+
+                if(size < 500) size = 500;
+
+                if(size > $(window).width())
+
+                    size = '95vw';
+
+                canvas_container.children('.canvas').width(size).height(size);
+
+                title_container.children('.title').width('100%');
+
+                if(title_container.height() <= min_title_height)
                 {
-                    $('.canvas-container').each(function()
-                    {
-                        var w = $(this).width();
-                        var h = $(this).height();
-    
-                        var size = w <= h ? w : h;
-    
-                        $(this).children('.canvas').width(size).height(size);
-                    });
+                    title_container.css('height', min_title_height + 'px');
+
+                    canvas_container.css('top', (min_title_height + offset) + 'px');
+                }
+                else
+                {
+                    title_container.css('height', '');
+
+                    canvas_container.css('top', (title_container.height() + offset) + 'px');
+                }
+                var coefficient = 0.84;
+
+                $('.canvas .top.corner').each(function()
+                {
+                    $(this).css('top', ($(this).height() * coefficient) + 'px');
                 });
-                $(window).resize();
-                $('.canvas-container').fadeIn();
+                $('.canvas .bottom.corner').each(function()
+                {
+                    $(this).css('bottom', ($(this).height() * coefficient) + 'px');
+                });
+                $('.canvas .left.corner').each(function()
+                {
+                    $(this).css('left', ($(this).width() * coefficient) + 'px');
+                });
+                $('.canvas .right.corner').each(function()
+                {
+                    $(this).css('right', ($(this).width() * coefficient) + 'px');
+                });
+                $('.canvas .center img, .canvas .left.edge a, .canvas .right.edge a').each(function()
+                {
+                    var height = $(this).height();
+
+                    var parent_height = $(this).closest('div').height();
+
+                    $(this).css('position', 'relative').css('top', ((parent_height - height) / 2) + 'px');
+                });
             });
-        </script>
-    
-<footer id="footer">
-    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Coding and design by Saydyy-Kuo</p>
-</footer>
+            $(window).resize();
+
+            canvas_container.animate({opacity: 1.0});
+
+            title_container.animate({opacity: 1.0});
+        });
+    </script>
+
+
 </body>
 </html>
