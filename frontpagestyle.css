@@ -226,7 +226,7 @@ footer{
     display: left;
     list-style: none;
     
-    padding:100px;
+    padding:90px;
     z-index: 11;
     position: absolute;
     
@@ -236,7 +236,7 @@ footer{
     
     
     padding-top: 10%;
-    padding-left: 10vw auto;
+    padding: 20px;
     /*transform:translate(-50%,-50%);*/
     width: 100%;
     text-align: center;
