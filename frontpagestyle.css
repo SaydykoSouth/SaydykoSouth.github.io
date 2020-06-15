@@ -225,6 +225,7 @@ footer{
     
 .social{
     text-align: center;
+    top: 100px;
 }
 .social li{
     display:inline-block;
@@ -235,12 +236,11 @@ footer{
 .social-icons li a {
     border-bottom: none;
 }
-  .social-icons li img {
+.social-icons li img {
     width:70px;
     height:70px;
     margin-right: 20px;
-  }
-
+}
 
 .fa:hover {
    
