@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+  .wrapper{
+    width: 100%;
+  }
+  .img-banner{
+    display: none;
+    cursor: pointer;
+  }
+  /*body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:black;
     position: relative;
@@ -12,13 +19,7 @@
     height: 100%;
   }
 
-  header {
-    text-align: center;
-    background-color: rgb(21, 63, 65);
-    color: #fff;
-    padding: 30px;
-  }
-  header h1 {
+  /*header h1 {
     font-size: 48px;
     margin-bottom: 30px;
   }
@@ -42,7 +43,7 @@
     top: 110%;
     position: absolute;
     
-  }
+  }*/
   .aptaakh-khomus{
     text-align: center;
     left: 35%;
