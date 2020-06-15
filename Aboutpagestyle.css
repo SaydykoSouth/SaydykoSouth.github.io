@@ -11,7 +11,7 @@
     display: none;
     cursor: pointer;
   }
-  >img-info{
+  .img-info{
     width: 100%;
   }
   .img-info h2{
