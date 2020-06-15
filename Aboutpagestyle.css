@@ -9,6 +9,7 @@
   }
   .img-banner{
     display: none;
+    cursor: pointer;
   }
   >img-info{
     width: 100%;
