@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body{
-    background-color: black;
-  }
+  
   .wrapper{
     width: 100%;
+    color: black;
   }
   .img-banner{
     display: none;
