@@ -52,7 +52,26 @@
     }
   }
   @media only screen and (min-width: 1000px){
-    
+    .wrapper{
+      width: 1000px;
+    }
+    .img-info{
+    width: 50%;
+    float: right;
+    }
+    .img-info h2{
+      padding: 20px 0px 0px 30px;
+      
+    }
+    .img-info p{
+      padding: 20px 0px 0px 30px;
+      
+    }
+    .img-me{
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+    }
   }
 
   /*body {
