@@ -6,7 +6,6 @@
   
   .wrapper{
     width: 100%;
-    color: black;
   }
   .img-banner{
     display: none;
@@ -127,12 +126,13 @@
     color: rgba(48, 148, 161, 0.5);
   }
   */
+  /*
   footer {
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 20px;
-    /*position: absolute;*/
+    /*position: absolute;
     bottom: 0;
     width: 100%;
     position: fixed;
