@@ -225,7 +225,10 @@ footer{
     
 .social{
     text-align: center;
-    top: 100px;
+    top: 120px;
+    position: left;
+    position: absolute;
+    
 }
 .social li{
     display:inline-block;
