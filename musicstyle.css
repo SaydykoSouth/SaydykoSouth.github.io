@@ -45,16 +45,21 @@
     .wrapper{
       width: 1000px;
     }
-    .img-info{
+    .etekh{
     width: 50%;
     float: right;
     }
     .img-info h2{
       padding: 20px 0px 0px 30px;
     }
-    .img-info p{
+    .img-info iframe{
       padding: 20px 0px 0px 30px;
         
+    }
+    .aptaakh-khomus{
+      padding-top: 0px;
+    width: 50%;
+    float: left;
     }
   }
   /*body {
