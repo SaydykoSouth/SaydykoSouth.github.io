@@ -3,6 +3,11 @@
     padding: 0;
     font-family: "montserrat",sans-serif;
   }
+
+  headerP{
+    background-color: black;
+    align-items: center;
+  }
 /*
   header {
     text-align: center;
