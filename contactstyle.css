@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "montserrat",sans-serif;
   }
-
+/*
   header {
     text-align: center;
     background-color: rgb(21, 63, 65);
@@ -16,7 +16,7 @@
   }
   body{
       background-color: black;
-  }
+  }*/
   /*
   .contact-section{
     /*background: url(bg.png) no-repeat center;
@@ -24,6 +24,8 @@
     background-size: cover;
     padding: 40px 0; 
   }*/
+
+  /*
   .contact-section h1{
     text-align: center;
     color:ghostwhite;
@@ -79,6 +81,7 @@
     border:2px double #333;
     opacity: .9;
   }
+  */
 
   footer {
     text-align: center;
