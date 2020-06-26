@@ -137,8 +137,9 @@
     padding: 20px;
     bottom: 0;
     width: 100%;
-    position: absolute;
-    z-index: 1; 
+    position: relative;
+    clear: both;
+    z-index: 10; 
   }
   
   
