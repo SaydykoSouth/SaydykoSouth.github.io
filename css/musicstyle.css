@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   .wrapper{
     width: 100%;
   }
@@ -20,16 +19,13 @@
     font-size: 50px;
     color: aqua;
     line-height: 44px;
+    text-align: center;
+    text-decoration-style: none;
+
   }
-  .img-info p{
-    padding: 0px 30px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: aqua;
-    line-height: 24px;
-  }
-  .img-me{
+  iframe{
     width: 100%;
+    
   }
   @media only screen and (min-width: 768px) {
     .img-banner{
@@ -43,13 +39,8 @@
     }
     .img-info h2{
       padding: 20px 0px 0px;
-      
     }
-    .img-info p{
-      padding: 20px 0px 0px;
-      
-    }
-    .img-me{
+    iframe{
       padding-top: 30px;
     }
   }
@@ -57,40 +48,33 @@
     .wrapper{
       width: 1000px;
     }
-    .img-info{
+    .etekh{
     width: 50%;
     float: right;
     }
     .img-info h2{
       padding: 20px 0px 0px 30px;
-      
     }
-    .img-info p{
+    .img-info iframe{
       padding: 20px 0px 0px 30px;
-      
+        
     }
-    .img-me{
-    padding-top: 0px;
+    .aptaakh-khomus{
+      padding-top: 0px;
     width: 50%;
     float: left;
     }
   }
-
   /*body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:black;
     position: relative;
     padding-bottom: 58px;
-    min-height: 100vh;
-  }
-  /*header {
-    text-align: center;
-    background-color: rgb(21, 63, 65);
-    color: #fff;
-    padding: 30px;
-  }
-  
-  header h1 {
+    /*min-height: 100vh;
+    height: 100%;
+  }*/
+
+  /*header h1 {
     font-size: 48px;
     margin-bottom: 30px;
   }
@@ -101,19 +85,37 @@
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
-    /* min-height: calc(100vh - 211px - 58px); 
-  }*/
- /* article {
+    
+    min-height: calc(100vh - 211px - 58px); **
+  }
+  
+  article {
     background-color: rgb(21, 63, 66);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    width: 60%;
-    float: right;  
+    width: 90%;
+    top: 110%;
+    position: absolute;
+    
+  }*/
+  /*
+  .aptaakh-khomus{
+    text-align: center;
+    left: 35%;
+    position: absolute;
   }
+  .etekh{
+    float: left;
+    position: absolute;
+    left: 3.5%;
+  }
+  .khomus-breath{
+    float: right;
+    right: 2%;
+    position: absolute;
+    top: 60%;
 
-  .photosaydyy-kuo{
-      float: left;
   }
   article:last-child {
     margin-bottom: 0;
@@ -127,27 +129,18 @@
     color: rgba(48, 148, 161, 0.5);
   }
   */
-  /*
   footer {
     text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 20px;
-    /*position: absolute;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
+    clear: both;
     z-index: 10; 
-    display: block;
   }
   
-  /*@media(max-width:768px) {
-    header { padding: 30px 20px; }
-    header h1 { font-size: 36px; margin-bottom: 22px; }
-    header p { font-size: 18px; }
-    main { width: 100vw; padding: 20px; }
-    article { margin-bottom: 16px; font-size: 14px; }
-    article h3 { margin: 10px 0 20px 0; }
-    article p { margin-top: 16px; line-height: 20px; }
-  }
-*/
+  
+
