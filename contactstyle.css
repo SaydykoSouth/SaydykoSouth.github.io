@@ -4,9 +4,14 @@
     font-family: "montserrat",sans-serif;
   }
 
-  headerP{
+  header{
     background-color: black;
     align-items: center;
+    padding: 50px ;
+  }
+  body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
   }
 /*
   header {
