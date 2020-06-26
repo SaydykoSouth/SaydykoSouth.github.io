@@ -29,7 +29,7 @@
   color: aqua;
   line-height: 24px;
 }
-.img-me{
+.fb-page{
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -50,7 +50,7 @@
     padding: 20px 0px 0px;
     
   }
-  .img-me{
+  .fb-page{
     padding-top: 30px;
   }
 }
@@ -70,7 +70,7 @@
     padding: 20px 0px 0px 30px;
     
   }
-  .img-me{
+  .fb-page{
   padding-top: 0px;
   width: 50%;
   float: left;
